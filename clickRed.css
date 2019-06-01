@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(47, 50, 52);
+  margin: 0
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.square {
+  background-color: rgb(210, 204, 49);
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.6%
+}
+.message {
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+.winning-square {
+  background-color: rgb(186, 47, 47);
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.6%
+}
+#no:hover {
+  border: 2px solid white;
+}
+#yes:hover {
+  border: 2px solid white;
+}
